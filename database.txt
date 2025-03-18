@@ -1,4 +1,5 @@
-{
-  "id": ["u0_a160"],
-  "username1": ["f2a0ffe83ec8d44f2be4b624b0f47dde"]
-}
+admin:u0_a123
+user1:u0_a124
+user2:u0_a125
+hans:u0_a126
+guest:u0_a127
