@@ -1,1 +1,4 @@
-f2a0ffe83ec8d44f2be4b624b0f47dde
+username: valid_apikey123
+last_update: 2025-03-18
+version: 1.0.0
+notes: Ini adalah file untuk menyimpan informasi apikey valid
