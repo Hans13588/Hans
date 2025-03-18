@@ -1,0 +1,91 @@
+name: Handle Device Status
+
+on:
+  repository_dispatch:
+    types: [device_online, device_offline]
+
+jobs:
+  update-device-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Update device status
+        run: |
+          python -c "
+import json
+import os
+import sys
+from datetime import datetime
+
+# Get the event data
+event_type = '${{ github.event.action }}'
+username = '${{ github.event.client_payload.username }}'
+device_id = '${{ github.event.client_payload.device_id }}'
+timestamp = '${{ github.event.client_payload.timestamp }}'
+action = '${{ github.event.client_payload.action }}'
+
+# Load existing devices
+devices_file = 'devices.json'
+if os.path.exists(devices_file):
+    with open(devices_file, 'r') as f:
+        try:
+            devices = json.load(f)
+        except json.JSONDecodeError:
+            devices = []
+else:
+    devices = []
+
+# Find device in list or add new one
+device_found = False
+for device in devices:
+    if device.get('device_id') == device_id:
+        device_found = True
+        device['timestamp'] = timestamp
+        device['status'] = 'online' if action == 'login' else 'offline'
+        device['username'] = username
+        if action == 'logout':
+            device['logout_time'] = timestamp
+        break
+
+if not device_found and action == 'login':
+    devices.append({
+        'username': username,
+        'device_id': device_id,
+        'timestamp': timestamp,
+        'status': 'online'
+    })
+
+# Clean up expired sessions (optional)
+current_time = datetime.now()
+cutoff_hours = 24  # Devices not updated for 24 hours are considered offline
+
+for device in devices:
+    if device.get('status') == 'online':
+        last_update = datetime.strptime(device.get('timestamp'), '%Y-%m-%d %H:%M:%S')
+        time_diff = (current_time - last_update).total_seconds() / 3600
+        if time_diff > cutoff_hours:
+            device['status'] = 'offline'
+            device['logout_time'] = current_time.strftime('%Y-%m-%d %H:%M:%S')
+            device['auto_logout'] = True
+
+# Save the updated list
+with open(devices_file, 'w') as f:
+    json.dump(devices, f, indent=2)
+
+print(f'Device status updated: {username} is now {action}')
+          "
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add devices.json
+          git commit -m "Update device status for ${{ github.event.client_payload.username }}" || echo "No changes to commit"
+          git push
