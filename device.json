@@ -1,4 +1,45 @@
 {
+  "timestamp": "2025-03-20T07:30:43.884170",
+  "network_devices": [
+    {
+      "interface": "dummy0",
+      "ip_address": "",
+      "mac_address": "",
+      "status": "up"
+    },
+    {
+      "interface": "lo",
+      "ip_address": "127.0.0.1",
+      "mac_address": "",
+      "status": "up"
+    },
+    {
+      "interface": "p2p0",
+      "ip_address": "",
+      "mac_address": "",
+      "status": "up"
+    },
+    {
+      "interface": "rmnet_ipa0",
+      "ip_address": "",
+      "mac_address": "",
+      "status": "up"
+    },
+    {
+      "interface": "wlan0",
+      "ip_address": "192.168.100.211",
+      "mac_address": "",
+      "status": "up"
+    }
+  ],
+  "connected_devices": [
+    {
+      "hostname": "?",
+      "ip": "192.168.100.1",
+      "mac": "b4:43:26:82:a1:e5",
+      "state": "REACHABLE"
+    }
+  ],
   "active_users": [
     {
       "hostname": "localhost",
