@@ -4,62 +4,12 @@
       "hostname": "localhost",
       "ip_address": "Unknown",
       "mac_address": "Unknown",
-      "login_time": "2025-03-19T11:08:50.022682",
-      "last_active": "2025-03-19T11:10:50.193571",
-      "user_type": "premium",
-      "user_id": "premium-localhost"
-    },
-    {
-      "hostname": "localhost",
-      "ip_address": "Unknown",
-      "mac_address": "Unknown",
-      "login_time": "2025-03-19T11:09:21.319109",
-      "last_active": "2025-03-19T14:01:34.271550",
-      "user_type": "owner",
-      "user_id": "owner-localhost"
-    },
-    {
-      "hostname": "localhost",
-      "ip_address": "Unknown",
-      "mac_address": "Unknown",
-      "login_time": "2025-03-19T11:14:02.274820",
-      "last_active": "2025-03-20T05:08:28.888105",
-      "user_type": "trial",
-      "user_id": "trial-localhost",
-      "device_status": "Online"
-    },
-    {
-      "hostname": "localhost",
-      "ip_address": "Unknown",
-      "mac_address": "Unknown",
       "device_username": "u0_a160",
       "device_status": "Online",
       "login_time": "2025-03-19T14:35:40.418196",
       "last_active": "2025-03-20T05:17:11.619412",
       "user_type": "owner",
       "user_id": "owner-u0_a160"
-    },
-    {
-      "hostname": "localhost",
-      "ip_address": "Unknown",
-      "mac_address": "Unknown",
-      "device_username": "u0_a160",
-      "device_status": "Online",
-      "login_time": "2025-03-19T14:37:00.094471",
-      "last_active": "2025-03-20T05:17:11.619493",
-      "user_type": "premium",
-      "user_id": "premium-u0_a160"
-    },
-    {
-      "hostname": "localhost",
-      "ip_address": "Unknown",
-      "mac_address": "Unknown",
-      "device_username": "u0_a160",
-      "device_status": "Online",
-      "login_time": "2025-03-20T05:06:18.552623",
-      "last_active": "2025-03-20T05:17:11.619516",
-      "user_type": "trial",
-      "user_id": "trial-u0_a160"
     }
   ]
 }
