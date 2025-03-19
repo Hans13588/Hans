@@ -17,6 +17,15 @@
       "last_active": "2025-03-19T11:13:43.414545",
       "user_type": "owner",
       "user_id": "owner-localhost"
+    },
+    {
+      "hostname": "localhost",
+      "ip_address": "Unknown",
+      "mac_address": "Unknown",
+      "login_time": "2025-03-19T11:14:02.274820",
+      "last_active": "2025-03-19T11:14:02.274897",
+      "user_type": "trial",
+      "user_id": "trial-localhost"
     }
   ]
 }
