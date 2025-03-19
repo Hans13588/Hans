@@ -1,45 +1,4 @@
 {
-  "timestamp": "2025-03-19T14:00:39.408913",
-  "network_devices": [
-    {
-      "interface": "dummy0",
-      "ip_address": "",
-      "mac_address": "",
-      "status": "up"
-    },
-    {
-      "interface": "lo",
-      "ip_address": "127.0.0.1",
-      "mac_address": "",
-      "status": "up"
-    },
-    {
-      "interface": "p2p0",
-      "ip_address": "",
-      "mac_address": "",
-      "status": "up"
-    },
-    {
-      "interface": "rmnet_ipa0",
-      "ip_address": "",
-      "mac_address": "",
-      "status": "up"
-    },
-    {
-      "interface": "wlan0",
-      "ip_address": "192.168.100.209",
-      "mac_address": "",
-      "status": "up"
-    }
-  ],
-  "connected_devices": [
-    {
-      "hostname": "?",
-      "ip": "192.168.100.1",
-      "mac": "b4:43:26:82:a1:e5",
-      "state": "REACHABLE"
-    }
-  ],
   "active_users": [
     {
       "hostname": "localhost",
@@ -55,7 +14,7 @@
       "ip_address": "Unknown",
       "mac_address": "Unknown",
       "login_time": "2025-03-19T11:09:21.319109",
-      "last_active": "2025-03-19T11:36:32.024852",
+      "last_active": "2025-03-19T14:00:46.593549",
       "user_type": "owner",
       "user_id": "owner-localhost"
     },
