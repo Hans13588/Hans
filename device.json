@@ -8,6 +8,15 @@
       "last_active": "2025-03-19T11:08:57.689542",
       "user_type": "premium",
       "user_id": "premium-localhost"
+    },
+    {
+      "hostname": "localhost",
+      "ip_address": "Unknown",
+      "mac_address": "Unknown",
+      "login_time": "2025-03-19T11:09:21.319109",
+      "last_active": "2025-03-19T11:09:21.319190",
+      "user_type": "owner",
+      "user_id": "owner-localhost"
     }
   ]
 }
