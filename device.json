@@ -32,9 +32,9 @@
       "ip_address": "Unknown",
       "mac_address": "Unknown",
       "device_username": "u0_a160",
-      "device_status": "Online",
+      "device_status": "Offline",
       "login_time": "2025-03-19T14:35:40.418196",
-      "last_active": "2025-03-19T15:38:06.785778",
+      "last_active": "2025-03-19T15:38:47.174016",
       "user_type": "owner",
       "user_id": "owner-u0_a160"
     },
@@ -43,9 +43,9 @@
       "ip_address": "Unknown",
       "mac_address": "Unknown",
       "device_username": "u0_a160",
-      "device_status": "Online",
+      "device_status": "Offline",
       "login_time": "2025-03-19T14:37:00.094471",
-      "last_active": "2025-03-19T15:38:06.785939",
+      "last_active": "2025-03-19T15:38:47.174156",
       "user_type": "premium",
       "user_id": "premium-u0_a160"
     }
