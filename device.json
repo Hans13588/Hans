@@ -48,6 +48,17 @@
       "last_active": "2025-03-20T05:06:06.129410",
       "user_type": "premium",
       "user_id": "premium-u0_a160"
+    },
+    {
+      "hostname": "localhost",
+      "ip_address": "Unknown",
+      "mac_address": "Unknown",
+      "device_username": "u0_a160",
+      "device_status": "Offline",
+      "login_time": "2025-03-20T05:06:18.552623",
+      "last_active": "2025-03-20T05:06:18.552789",
+      "user_type": "trial",
+      "user_id": "trial-u0_a160"
     }
   ]
 }
