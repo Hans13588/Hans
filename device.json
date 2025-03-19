@@ -1,10 +1,5 @@
 {
-  "timestamp": "2025-03-19T10:49:31.192329",
-  "user_info": {
-    "hostname": "localhost",
-    "username": "unknown",
-    "login_type": "owner"
-  },
+  "timestamp": "2025-03-19T11:08:40.621604",
   "network_devices": [
     {
       "interface": "dummy0",
@@ -44,5 +39,6 @@
       "mac": "b4:43:26:82:a1:e5",
       "state": "REACHABLE"
     }
-  ]
+  ],
+  "active_users": []
 }
