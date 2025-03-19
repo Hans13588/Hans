@@ -1,6 +1,10 @@
 {
-  "timestamp": "2025-03-19 10:34:10",
-  "hostname": "localhost",
+  "timestamp": "2025-03-19T10:49:31.192329",
+  "user_info": {
+    "hostname": "localhost",
+    "username": "unknown",
+    "login_type": "owner"
+  },
   "network_devices": [
     {
       "interface": "dummy0",
