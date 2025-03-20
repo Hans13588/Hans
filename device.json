@@ -33,9 +33,9 @@
       "ip_address": "Unknown",
       "mac_address": "Unknown",
       "device_username": "u0_a160",
-      "device_status": "Offline",
+      "device_status": "Online",
       "login_time": "2025-03-19T14:35:40.418196",
-      "last_active": "2025-03-20T11:41:07.407179",
+      "last_active": "2025-03-20T11:41:40.201747",
       "user_type": "owner",
       "user_id": "owner-u0_a160"
     },
