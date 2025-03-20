@@ -33,9 +33,9 @@
       "ip_address": "Unknown",
       "mac_address": "Unknown",
       "device_username": "u0_a160",
-      "device_status": "Offline",
+      "device_status": "Online",
       "login_time": "2025-03-19T14:35:40.418196",
-      "last_active": "2025-03-20T11:37:02.206576",
+      "last_active": "2025-03-20T11:37:24.024222",
       "user_type": "owner",
       "user_id": "owner-u0_a160"
     },
@@ -44,9 +44,9 @@
       "ip_address": "Unknown",
       "mac_address": "Unknown",
       "device_username": "u0_a160",
-      "device_status": "Offline",
+      "device_status": "Online",
       "login_time": "2025-03-19T14:37:00.094471",
-      "last_active": "2025-03-20T11:36:51.822049",
+      "last_active": "2025-03-20T11:37:24.024406",
       "user_type": "premium",
       "user_id": "premium-u0_a160"
     },
@@ -55,9 +55,9 @@
       "ip_address": "Unknown",
       "mac_address": "Unknown",
       "device_username": "u0_a160",
-      "device_status": "Offline",
+      "device_status": "Online",
       "login_time": "2025-03-20T05:06:18.552623",
-      "last_active": "2025-03-20T11:36:51.822072",
+      "last_active": "2025-03-20T11:37:24.024454",
       "user_type": "trial",
       "user_id": "trial-u0_a160"
     }
