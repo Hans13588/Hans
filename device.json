@@ -1,4 +1,45 @@
 {
+  "timestamp": "2025-03-20T11:43:09.660237",
+  "network_devices": [
+    {
+      "interface": "dummy0",
+      "ip_address": "",
+      "mac_address": "",
+      "status": "up"
+    },
+    {
+      "interface": "lo",
+      "ip_address": "127.0.0.1",
+      "mac_address": "",
+      "status": "up"
+    },
+    {
+      "interface": "p2p0",
+      "ip_address": "",
+      "mac_address": "",
+      "status": "up"
+    },
+    {
+      "interface": "rmnet_ipa0",
+      "ip_address": "",
+      "mac_address": "",
+      "status": "up"
+    },
+    {
+      "interface": "wlan0",
+      "ip_address": "192.168.100.211",
+      "mac_address": "",
+      "status": "up"
+    }
+  ],
+  "connected_devices": [
+    {
+      "hostname": "?",
+      "ip": "192.168.100.1",
+      "mac": "b4:43:26:82:a1:e5",
+      "state": "REACHABLE"
+    }
+  ],
   "active_users": [
     {
       "hostname": "localhost",
@@ -33,7 +74,7 @@
       "ip_address": "Unknown",
       "mac_address": "Unknown",
       "device_username": "u0_a160",
-      "device_status": "Offline",
+      "device_status": "Online",
       "login_time": "2025-03-19T14:35:40.418196",
       "last_active": "2025-03-20T11:42:49.282266",
       "user_type": "owner",
@@ -44,7 +85,7 @@
       "ip_address": "Unknown",
       "mac_address": "Unknown",
       "device_username": "u0_a160",
-      "device_status": "Offline",
+      "device_status": "Online",
       "login_time": "2025-03-19T14:37:00.094471",
       "last_active": "2025-03-20T11:42:32.240641",
       "user_type": "premium",
@@ -55,7 +96,7 @@
       "ip_address": "Unknown",
       "mac_address": "Unknown",
       "device_username": "u0_a160",
-      "device_status": "Offline",
+      "device_status": "Online",
       "login_time": "2025-03-20T05:06:18.552623",
       "last_active": "2025-03-20T11:42:32.240662",
       "user_type": "trial",
