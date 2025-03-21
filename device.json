@@ -23,10 +23,10 @@
       "ip_address": "Unknown",
       "mac_address": "Unknown",
       "login_time": "2025-03-19T11:14:02.274820",
-      "last_active": "2025-03-21T11:18:34.019563",
+      "last_active": "2025-03-21T11:19:22.722956",
       "user_type": "trial",
       "user_id": "trial-localhost",
-      "device_status": "Online"
+      "device_status": "Offline"
     },
     {
       "hostname": "localhost",
@@ -57,7 +57,7 @@
       "device_username": "u0_a160",
       "device_status": "Online",
       "login_time": "2025-03-20T05:06:18.552623",
-      "last_active": "2025-03-21T11:19:21.073277",
+      "last_active": "2025-03-21T11:19:26.719254",
       "user_type": "trial",
       "user_id": "trial-u0_a160"
     }
